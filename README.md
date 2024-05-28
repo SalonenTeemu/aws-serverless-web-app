@@ -1,5 +1,3 @@
 # aws-serverless-web-app
 
-
-
-This is a straigthforward full-stack web application for contacts. The backend API is implemented with ASP.NET Core and the frontend with Angular and tailwind CSS. You can add and delete contacts and mark them as favorites. The favorites are marked with a star and shown at the top.
+This repository includes files for a very minimal serverless web application. The application was implemented with AWS services. The application is for adding/retrieving pet data to/from DynamoDB table. The scripts.js file includes methods for making requests to the REST API created with API Gateway. The python files include the functions that were uploaded to AWS Lambda making the additions and retrievals.
